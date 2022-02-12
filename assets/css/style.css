@@ -2,7 +2,8 @@
 
 .center{
 
-    text-align:center;
+    display: flex;
+    justify-content: center;
 }
 .container{ 
 
@@ -22,7 +23,7 @@
 
     text-decoration :none;
     color:red;
-    font-size : 14px;
+    font-size : 20px;
 }
 
 #menu li a:hover{
@@ -58,8 +59,15 @@
     margin-bottom: 50px;
 }
 
-.justify{
+.justify{   
 
     text-align: justify;
 }
+
+.ml-50{
+
+    margin-left: 50px;
+}
+
+
 /*Estilos da página contatos.html*
